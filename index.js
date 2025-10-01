@@ -3,7 +3,7 @@ const fiveToOneHundred = () => {
     for (let i = 5; i <= 100; i++) {
         console.log(i);
     }
-    console.log('==========');
+    console.log('========== P1');
 }
 
 fiveToOneHundred();
@@ -14,7 +14,7 @@ const multiplesOfThree = () => {
             console.log(i);
         }
     }
-    console.log('==========');
+    console.log('========== P2');
 }
 
 multiplesOfThree();
@@ -25,7 +25,7 @@ const multiplesOfThreeOrFive = () => {
             console.log(i);
         }
     }
-    console.log('==========');
+    console.log('========== P3');
 }
 
 multiplesOfThreeOrFive();
@@ -34,7 +34,7 @@ const untilNum = (num) => {
     for (let i = 1; i <= num; i++) {
         console.log(i);
     }
-    console.log('==========');
+    console.log('========== P4');
 }
 
 untilNum(42);
@@ -43,7 +43,7 @@ const multiply = (a, b) => {
     return a * b;
 }
 console.log(multiply(2, 3))
-console.log('==========');
+console.log('========== P5');
 
 const add = (a, b) => {
     if (a === b) {
@@ -54,4 +54,14 @@ const add = (a, b) => {
 }
 console.log(add(5, 5));
 console.log(add(2, 4));
-console.log('==========');
+console.log('========== P6');
+
+const isNegative = (n) => {
+    if (n < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isNegative(1));
+console.log('========== P7');
