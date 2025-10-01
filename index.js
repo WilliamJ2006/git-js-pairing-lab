@@ -65,3 +65,10 @@ const isNegative = (n) => {
 }
 console.log(isNegative(1));
 console.log('========== P7');
+
+const triangeArea = (a, b) => {
+    return (a * b) / 2;
+}
+console.log(triangeArea(5, 7));
+console.log(triangeArea(6, 8));
+console.log('========== P8');
