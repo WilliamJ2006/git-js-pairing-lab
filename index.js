@@ -24,3 +24,4 @@ const untilNum = (num) => {
 }
 
 untilNum(42);
+
