@@ -83,3 +83,20 @@ const betweenTwentyAndFourty = (k) => {
 };
 console.log(betweenTwentyAndFourty(20));
 console.log(betweenTwentyAndFourty(21));
+console.log('========== P9');
+
+const largest = (num1, num2, num3) => {
+    let arr = [num1, num2, num3];
+    let largest = num1;
+    for (let i = 0; i < arr.length; i++) {
+        if (largest < arr[i]) {
+            largest = arr[i];
+        }
+    }
+    return largest;
+}
+
+console.log(largest(4, 6, 8));
+console.log(largest(30, 22, 17));
+console.log(largest(41, 108, 86));
+console.log('========== P10');
