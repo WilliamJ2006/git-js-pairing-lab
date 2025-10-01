@@ -44,3 +44,14 @@ const multiply = (a, b) => {
 }
 console.log(multiply(2, 3))
 console.log('==========');
+
+const add = (a, b) => {
+    if (a === b) {
+        return (a + b) * 3;
+    } else {
+        return a + b;
+    }
+}
+console.log(add(5, 5));
+console.log(add(2, 4));
+console.log('==========');
