@@ -102,7 +102,7 @@ console.log(largest(41, 108, 86));
 console.log('========== P10');
 
 
-console.log("bounus questions P11 ========= P11");
+console.log("bounus questions");
 
 const printTime = () => {
     const now = new Date();
@@ -128,10 +128,35 @@ printTime();
 
 console.log("P11 ========= P11");
 
+
+
+const getExtention = (string) => {
+    let myString = '';
+    let character = '.';
+    let place = '';
+    for (i = 0; i <= string.indexOf(character); i++) {
+        place = i;
+    }
+    return myString = string.slice(place);
+};
+console.log(getExtention('text.ksdj'))
+
+'hello.txt'
 console.log("P13 ====== P13")
 
-const getExtention = () =>
+const switchLetter = (string) => {
+    const firstLetter = string[0];
+    const lastLetter = string[string.length - 1];
+    const middleLetters = string.substring(1, string.length - 1);
+    const word = lastLetter + middleLetters + firstLetter;
+
+    console.log(word);
+}
+
+switchLetter("hello world")
 
 
 
-    console.log("P13 ====== P13")
+
+console.log("===P15")
+
