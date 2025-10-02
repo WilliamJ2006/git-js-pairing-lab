@@ -27,3 +27,22 @@ console.log(absoluteNineteen(54));
 console.log(absoluteNineteen(10));
 console.log(absoluteNineteen(5));
 console.log('========== P14');
+
+const changeString = (string) => {
+    let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+    let newString = '';
+    lowerCaseString = string.toLowerCase();
+    for (let i = 0; i < string.length; i++) {
+        for (let j = 0; j < alphabet.length; j++) {
+            if (lowerCaseString[i] === alphabet[j]) {
+                newString += alphabet[j + 1];
+            }
+        }
+    }
+    return newString;
+}
+
+console.log(changeString('Hello'));
+console.log(changeString("helloworld"));
+console.log(changeString("abc"));
+console.log('========== P16');
