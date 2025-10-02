@@ -71,7 +71,7 @@ const triangeArea = (a, b) => {
 }
 console.log(triangeArea(5, 7));
 console.log(triangeArea(6, 8));
-console.log('========== P8');
+console.log('=========== P8');
 
 const betweenTwentyAndFourty = (k) => {
     if (k > 20 && k < 40) {
