@@ -35,7 +35,7 @@ console.log('========== P14');
 const changeString = (string) => {
     let alphabet = 'abcdefghijklmnopqrstuvwxyz';
     let newString = '';
-    lowerCaseString = string.toLowerCase();
+    let lowerCaseString = string.toLowerCase();
     for (let i = 0; i < string.length; i++) {
         for (let j = 0; j < alphabet.length; j++) {
             if (lowerCaseString[i] === alphabet[j]) {
