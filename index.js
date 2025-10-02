@@ -87,7 +87,7 @@ console.log('========== P9');
 
 const largest = (num1, num2, num3) => {
     let arr = [num1, num2, num3];
-    let largest = num1;
+    let largest = arr[0];
     for (let i = 0; i < arr.length; i++) {
         if (largest < arr[i]) {
             largest = arr[i];
