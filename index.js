@@ -100,3 +100,38 @@ console.log(largest(4, 6, 8));
 console.log(largest(30, 22, 17));
 console.log(largest(41, 108, 86));
 console.log('========== P10');
+
+
+console.log("bounus questions P11 ========= P11");
+
+const printTime = () => {
+    const now = new Date();
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+
+    if (hours < 10) {
+        hours = `0${hours}`;
+    };
+    if (minutes < 10) {
+        minutes = `0${minutes}`
+    };
+    if (seconds < 10) {
+        seconds = `0${seconds}`
+    };
+    const time = `${hours}:${minutes}:${seconds}`;
+    console.log(time);
+}
+printTime();
+
+
+
+console.log("P11 ========= P11");
+
+console.log("P13 ====== P13")
+
+const getExtention = () =>
+
+
+
+    console.log("P13 ====== P13")
