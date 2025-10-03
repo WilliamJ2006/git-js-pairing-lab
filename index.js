@@ -164,6 +164,9 @@ const changeString = (string) => {
     let newString = '';
     let lowerCaseString = string.toLowerCase();
     for (let i = 0; i < string.length; i++) {
+        if (lowerCaseString[i] === ' ') {
+            newString += ' ';
+        }
         for (let j = 0; j < alphabet.length; j++) {
             if (lowerCaseString[i] === alphabet[j]) {
                 newString += alphabet[j + 1];
