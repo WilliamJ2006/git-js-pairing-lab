@@ -120,6 +120,7 @@ const printTime = () => {
 }
 printTime();
 console.log("P11 ========= P11");
+
 const isLeapYear = (year) => {
     return (year % 4 === 0 && year % 100 != 0 || year % 400 === 0);
 }
@@ -127,6 +128,7 @@ console.log(isLeapYear(2024));
 console.log(isLeapYear(1900));
 console.log(isLeapYear(2000));
 console.log('========== P12');
+
 const getExtention = (string) => {
     let myString = '';
     let character = '.';
@@ -138,6 +140,7 @@ const getExtention = (string) => {
 };
 console.log(getExtention('text.ksdj'))
 console.log("P13 ====== P13")
+
 const absoluteNineteen = (num) => {
     let finalNum = 0;
     finalNum = Math.abs(num - 19);
@@ -150,6 +153,7 @@ console.log(absoluteNineteen(54));
 console.log(absoluteNineteen(10));
 console.log(absoluteNineteen(5));
 console.log('========== P14');
+
 const switchLetter = (string) => {
     const firstLetter = string[0];
     const lastLetter = string[string.length - 1];
@@ -159,6 +163,7 @@ const switchLetter = (string) => {
 }
 switchLetter("hello world")
 console.log("===P15")
+
 const changeString = (string) => {
     let alphabet = 'abcdefghijklmnopqrstuvwxyz';
     let newString = '';
