@@ -144,7 +144,7 @@ console.log("P13 ====== P13")
 const absoluteNineteen = (num) => {
     let finalNum = 0;
     finalNum = Math.abs(num - 19);
-    if (finalNum > 19) {
+    if (num > 19) {
         finalNum = finalNum * 3;
     }
     return finalNum;
